@@ -3,6 +3,7 @@
 sudo pacman -S crystal-core crystal-branding
 sudo mv /etc/pacman.conf /etc/pacman.conf.bak
 sudo cp pacman.conf /etc/pacman.conf
+mkdir -p ~/.config/kitty/
 cp -r kitty.conf ~/.config/kitty/
 cp -r .bashrc ~/
 ame -Sy
